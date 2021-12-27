@@ -1,9 +1,19 @@
 @media all and (min-width: 480px) {
     .Login {
         padding: 60px;
+        position: fixed;
+
+font-family: "Arial", Sans-serif;
+position: fixed;
+text-align: center;
+width: 100%;
+margin-top: 5px;
+
+background-color: #ebebeb;
     }
     .Login form {
         margin: 0.8rem auto;
         max-width: 320px;
     }
+
 }
