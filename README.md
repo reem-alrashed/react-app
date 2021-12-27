@@ -1,6 +1,8 @@
 # Breif
 
-Simply a project built using react.
+Simply a project built using react.  
+
+Deployed app link: [React app](https://reem-alrashed.github.io/react-app/)
 
 ##  Project setup
 
