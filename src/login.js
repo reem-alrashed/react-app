@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "./login.css";
-import {FloatingLabel,Col} from 'react-bootstrap';
+import { FloatingLabel, Col} from 'react-bootstrap';
 
 export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email] = useState("");
+  const [password] = useState("");
 
   function validateForm() {
     return email.length > 0 && password.length > 0;
