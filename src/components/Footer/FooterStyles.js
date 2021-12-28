@@ -19,7 +19,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
 `
    
 export const Column = styled.div`
