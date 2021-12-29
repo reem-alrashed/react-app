@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card,Form,FloatingLabel,Button,Breadcrumb  } from 'react-bootstrap';
+import { Card, Form, FloatingLabel, Button, Breadcrumb } from 'react-bootstrap';
 
 function App() {
 
@@ -10,14 +10,14 @@ function App() {
       <Card>
         <div className="row d-flex justify-content-center m-4" style={{'text-align': 'center'}}>
         <Breadcrumb className="mt-2 mr-4">
-  <Breadcrumb.Item >Home</Breadcrumb.Item>
-  <Breadcrumb.Item active>Login</Breadcrumb.Item>
-</Breadcrumb>
+          <Breadcrumb.Item >Home</Breadcrumb.Item>
+          <Breadcrumb.Item active>Login</Breadcrumb.Item>
+        </Breadcrumb>
           <div className="col-md-5">
             <form id="loginform" >
             <FloatingLabel
     controlId="floatingInput"
-    label="Email address"
+    label="Email "
     className="mb-3"
   >
     <Form.Control type="email" placeholder="name@example.com" />
