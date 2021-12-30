@@ -3,7 +3,6 @@ import {
     Nav,
     NavLogo,
     NavLink,
-    Bars,
     NavMenu,
     NavBtn,
     NavBtnLink,
@@ -16,7 +15,6 @@ const Navbar = () => {
             <NavLogo to="/">
                 OurLovelyApp!
             </NavLogo>
-            <Bars />
 
             <NavMenu>
                 <NavLink to="/" activeStyle>
