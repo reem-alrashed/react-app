@@ -48,4 +48,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
  `npm run deploy`
  
-Builds and deploys the app using Github pages.
+Builds and deploys the app using Github pages. 
+
+Reference: [Github pages deployment](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
